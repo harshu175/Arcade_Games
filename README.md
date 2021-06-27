@@ -1,6 +1,7 @@
 # Arcade_Games
 
 ✅ There are total of Three Games in this  arcade.
+
     -> Shooter :- A shooting kind of game with looks like you are in dark space and in an UFO and shooting Asteroid's with different size and color.
                   Getting some points everytime you hit the Asteroid/enemy with infinite bullets in your inventory.
                   Game is fully developed in JS and canvas. All the Looks and display is generated using Canvas.
