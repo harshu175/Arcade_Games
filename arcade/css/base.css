@@ -1,0 +1,41 @@
+
+:root {
+  --blue: #df1234;
+  --white: #ffffff;
+  --black: #000000;
+  --green1: #cf2440;
+  --green2: #1db954;
+  --gray1: #eb08cc;
+  --gray2: #0691ee;
+  --gray3: #d806aa;
+  --hero-bg-color: #070707;
+  --hero-terms-link: #efefef;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}

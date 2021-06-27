@@ -1,0 +1,122 @@
+
+.albums-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.albums-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 0.1rem black;
+}
+
+.albums-content p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.albums-content button {
+  padding: 1.5rem 4.5rem;
+  border-radius: 3rem;
+  outline: none;
+  background: white;
+  color: black;
+  font-weight: 700;
+  border-color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.albums-content button:hover {
+  background: black;
+  color: crimson;
+}
+
+.albums-content button:active {
+  background: black;
+  border-color: black;
+}
+
+.albums-cards-container {
+  display: flex;
+  overflow: auto;
+  padding-bottom: 8rem;
+}
+
+.albums-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.album {
+  min-width: 50%;
+  padding-left: 3.5rem;
+  box-sizing: content-box;
+}
+
+.album:first-child {
+  padding-left: 1.5rem;
+}
+
+.album:last-child {
+  padding-right: 1.5rem;
+}
+
+.album img {
+  width: 100%;
+  box-shadow: 0.1rem 0.1rem 1.6rem -0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.album img:hover {
+  cursor: pointer;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.album-info h2,
+.album-info h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+
+.album-info h2 {
+  font-size: 1.75rem;
+  color: var(--gray2);
+  padding-top: 2rem;
+}
+
+
+.album-info h4 {
+  font-size: 1.5rem;
+  color: crimson;
+  margin: 1rem 0;
+}
+
+.album-info h2,
+.album-info h4 {
+  cursor: pointer;
+}
+
+.album-info a {
+  font-size: 1.5rem;
+  color: var(--green2);
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+}
+
+.album-info a:hover {
+  color: crimson;
+}
