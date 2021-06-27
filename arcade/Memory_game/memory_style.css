@@ -130,7 +130,7 @@ body{
 }
 
 .card-front{
-    background-color: rgb(163, 104, 27);
+    background-color: rgb(224, 135, 17);
     border-color: #333;
     transform: rotateY(180deg);
 }
