@@ -18,11 +18,14 @@ html{
 
 body{
     margin: 0;
-    background: radial-gradient(rgb(109, 108, 108), black);
+    background-color: #FD940A;
+    background-image: radial-gradient(circle, #ffbe5c 0%, #ca6705 70%, #3b3a3a 100%);
+    scroll-behavior: smooth;
+    scrollbar-color: black;
 }
 
 .page-title{
-    color: rgba(180, 100, 8, 0.993);
+    color: rgb(8, 8, 8);
     font-family: creepy, serif;
     font-weight: normal;
     text-align: center;
@@ -42,8 +45,9 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 100;
-    color: #ff6d00;
+    color: #ffffff;
     font-family: creepy;
+    /* font-size: 1rem; */
 }
     
 .overlay-text-small{
@@ -54,6 +58,7 @@ body{
     display: flex;
     flex-direction: column;
     animation: overlay-grow 1000ms forwards;
+
 }
 
 @keyframes overlay-grow{
@@ -62,8 +67,8 @@ body{
         font-size: 0;
     }
     to{
-        font-size: 10em;
-        background-color: rgba(0,0,0,.8);
+        font-size: 8em;
+        background-color: rgba(0, 0, 0, 0.6);
     }
 }
 
@@ -75,9 +80,11 @@ body{
 }
 
 .game-info{
-    color: rgb(255, 197, 91);
+    color: rgb(0, 0, 0);
     font-family: Lunacy;
     font-size: 4rem;
+    z-index: 99;
+    font-weight: 500;
 }
 
 .game-container{
@@ -93,6 +100,7 @@ body{
     position: relative;
     height: 175px;
     width: 125px;
+    z-index: 99;
 }
 .card:hover{
     cursor: url("Assets/Cursors/GhostHover.cur"), auto;
@@ -211,3 +219,6 @@ body{
         align-items: center;
     }
 }
+
+
+
