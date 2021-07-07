@@ -2,7 +2,7 @@ let game1 = document.getElementById('game-1');
 let game2 = document.getElementById('game-2');
 let game3 = document.getElementById('game-3');
 let play_game = document.getElementById('play-game');
-console.log(game1);
+
 
 game1.addEventListener("click", function(){
   location.assign('shooter/index.html');
